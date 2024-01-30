@@ -14,7 +14,7 @@ openai.api_key = os.environ["OPENAI_API_KEY"]
 messages = [
     {
         "role": "system",
-        "content": "You are a helpful assistant. You answer questions about a software product named Acme."
+        "content": "You are playing charades. You will be given a short description of a common object, often movies, tv shows or songs. Given the description you need to guess what is being described."
     },
     {
         "role": "user",
